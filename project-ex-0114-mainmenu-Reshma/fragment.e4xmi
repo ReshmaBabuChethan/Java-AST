@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_N_DzIFd1EeuKMKq7oe-clw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Wr8qwFd1EeuKMKq7oe-clw" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_jqRiYFd1EeuKMKq7oe-clw" elementId="project-ex-0114-mainmenu-reshma.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_v8JjsFd1EeuKMKq7oe-clw" elementId="project-ex-0114-mainmenu-reshma.menu.mymainmenureshma" label="My Main Menu Reshma">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_5wcvUFd1EeuKMKq7oe-clw" elementId="project-ex-0114-mainmenu-reshma.handledmenuitem.showhelloworld" label="Show Hello World"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_EHPkAFd2EeuKMKq7oe-clw" elementId="project-ex-0114-mainmenu-reshma.handledmenuitem.showmylastname" label="Show My Last Name"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

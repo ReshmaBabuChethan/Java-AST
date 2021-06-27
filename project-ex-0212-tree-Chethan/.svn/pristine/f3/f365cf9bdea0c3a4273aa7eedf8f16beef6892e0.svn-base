@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_JLC1QG2UEeuuiLsmzzwncQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_zqkg8G2UEeuuiLsmzzwncQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_Hey5YG2VEeuuiLsmzzwncQ" elementId="project-ex-0212-tree-chethan.partdescriptor.simpletreechethan" label="Simple Tree Chethan" iconURI="platform:/plugin/project-ex-0212-tree-Chethan/icons/sample.png" contributionURI="bundleclass://project-ex-0212-tree-Chethan/view.Viewer"/>
+  </fragments>
+</fragment:ModelFragments>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vWID4LAUEeW3vtWFl0TcLg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_wI8n8LAUEeW3vtWFl0TcLg" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_8KtMwH08EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.command.public" commandName="public"/>
+    <elements xsi:type="commands:Command" xmi:id="_8lJGAH08EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.command.nonparameter" commandName="non parameter"/>
+    <elements xsi:type="commands:Command" xmi:id="_85BEQH08EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.command.voidreturn" commandName="void return"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_47Z8ELAUEeW3vtWFl0TcLg" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_BHyx0H09EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.handler.0" contributionURI="bundleclass://simpleDefUseAnalysisExample/handler.DefUsePublicHandler" command="_8KtMwH08EeuC6cqSUn2Cig"/>
+    <elements xsi:type="commands:Handler" xmi:id="_BglFQH09EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.handler.1" contributionURI="bundleclass://simpleDefUseAnalysisExample/handler.DefUseNonParameterHandler" command="_8lJGAH08EeuC6cqSUn2Cig"/>
+    <elements xsi:type="commands:Handler" xmi:id="_B1j2wH09EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.handler.2" contributionURI="bundleclass://simpleDefUseAnalysisExample/handler.DefUseVoidReturnHandler" command="_85BEQH08EeuC6cqSUn2Cig"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EnVXsLAVEeW3vtWFl0TcLg" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_KBAyILAVEeW3vtWFl0TcLg" elementId="simplebindingproject.partdescriptor.simplebindingview" label="Simple View Q2 Abdullah" iconURI="platform:/plugin/simpleDefUseAnalysisExample/icons/sample.png" contributionURI="bundleclass://simpleDefUseAnalysisExample/view.SimpleViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_bcsecH08EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_m5RPcH08EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.handledmenuitem.defuseanalysisforpubicmethods" label="Def Use Analysis for Pubic Methods" command="_8KtMwH08EeuC6cqSUn2Cig"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_nNMRAH08EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.handledmenuitem.defuseanalysisforpubicmethods" label="Def Use Analysis for Non-Parameter Methods" command="_8lJGAH08EeuC6cqSUn2Cig"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ngpYgH08EeuC6cqSUn2Cig" elementId="project-q2-0304-abdullah.handledmenuitem.defuseanalysisforvoid-returnmethods" label="Def Use Analysis for Void-Return Methods" command="_85BEQH08EeuC6cqSUn2Cig"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

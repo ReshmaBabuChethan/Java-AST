@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_xEpHgHvtEeuKe5DLlrrk4Q">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_-R3WwHvtEeuKe5DLlrrk4Q" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_LtJQIHvuEeuKe5DLlrrk4Q" elementId="project-ex-0303-defuse-chethan.command.simplebinding" commandName="Simple Binding"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_R2WqEHvuEeuKe5DLlrrk4Q" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_ckdLgHvuEeuKe5DLlrrk4Q" elementId="project-ex-0303-defuse-chethan.handler.0" contributionURI="bundleclass://project-ex-0303-defuse-Chethan/handler.DefUseHandler" command="_LtJQIHvuEeuKe5DLlrrk4Q"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_sfCY4HvuEeuKe5DLlrrk4Q" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_yuRiUHvuEeuKe5DLlrrk4Q" elementId="project-ex-0303-defuse-chethan.partdescriptor.simpleviewdefusechethan" label="Simple View Def Use Chethan" iconURI="platform:/plugin/project-ex-0303-defuse-Chethan/icons/sample.png" contributionURI="bundleclass://project-ex-0303-defuse-Chethan/view.SimpleViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dEs8YHvvEeuKe5DLlrrk4Q" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_j9sNcHvvEeuKe5DLlrrk4Q" elementId="project-ex-0303-defuse-chethan.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_IWOFsHvwEeuKe5DLlrrk4Q" elementId="project-ex-0303-defuse-chethan.menu.mainmenuchethan" label="Main Menu Chethan">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_YMlhcHvwEeuKe5DLlrrk4Q" elementId="project-ex-0303-defuse-chethan.handledmenuitem.defuseanalysischethan" label="Def Use Analysis Chethan" command="_LtJQIHvuEeuKe5DLlrrk4Q"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

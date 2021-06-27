@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_kFSgAFrOEeu--6-SvjFLfg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HDkn0FrPEeu--6-SvjFLfg" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_xM4y8FrPEeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_90vEQFrPEeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.menu.helloplug-in" label="Hello Plug-in">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_hiCOMFrQEeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.handledmenuitem.showhello" label="Show Hello" command="_o1n7IFrREeu--6-SvjFLfg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_xkiBcFrQEeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.handledmenuitem.showhighestnumber" label="Show Highest Number" command="_y2dt8FrREeu--6-SvjFLfg"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_S5FLUFrREeu--6-SvjFLfg" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_o1n7IFrREeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.command.showhello" commandName="Show Hello"/>
+    <elements xsi:type="commands:Command" xmi:id="_y2dt8FrREeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.command.showhighestnumber" commandName="Show Highest Number"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_poyA8FrSEeu--6-SvjFLfg" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_vQIrAFrSEeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.handler.0" contributionURI="bundleclass://project-ex-0119-message-Chethan/handler.ShowHelloHandler" command="_o1n7IFrREeu--6-SvjFLfg"/>
+    <elements xsi:type="commands:Handler" xmi:id="_3_s3oFrcEeu--6-SvjFLfg" elementId="project-ex-0119-message-chethan.handler.1" contributionURI="bundleclass://project-ex-0119-message-Chethan/handler.ShowHighestNumberHandler" command="_y2dt8FrREeu--6-SvjFLfg"/>
+  </fragments>
+</fragment:ModelFragments>

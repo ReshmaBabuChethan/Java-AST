@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_9sJ4wH05EeuWoeNDiXJbwg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__vXRMH06EeuWoeNDiXJbwg" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_GuqloH07EeuWoeNDiXJbwg" elementId="project-q2-0304-chethan.command.defusepublicmethod" commandName="DefUsePublicMethod"/>
+    <elements xsi:type="commands:Command" xmi:id="_TddMcH07EeuWoeNDiXJbwg" elementId="project-q2-0304-chethan.command.defusenonparammethod" commandName="DefUseNonParamMethod"/>
+    <elements xsi:type="commands:Command" xmi:id="_ZgRDcH07EeuWoeNDiXJbwg" elementId="project-q2-0304-chethan.command.defusevoidmethod" commandName="DefUseVoidMethod"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_i3obcH07EeuWoeNDiXJbwg" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_rdgsIH07EeuWoeNDiXJbwg" elementId="project-q2-0304-chethan.handler.0" contributionURI="bundleclass://project-q2-0304-Chethan/handler.DefUsePublicMethodHandler" command="_GuqloH07EeuWoeNDiXJbwg"/>
+    <elements xsi:type="commands:Handler" xmi:id="_BxV6kH08EeuWoeNDiXJbwg" elementId="project-q2-0304-chethan.handler.1" contributionURI="bundleclass://project-q2-0304-Chethan/handler.DefUseNonParamHandler" command="_TddMcH07EeuWoeNDiXJbwg"/>
+    <elements xsi:type="commands:Handler" xmi:id="_GP8z4H08EeuWoeNDiXJbwg" elementId="project-q2-0304-chethan.handler.2" contributionURI="bundleclass://project-q2-0304-Chethan/handler.DefUseVoidHandler" command="_ZgRDcH07EeuWoeNDiXJbwg"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Myf64H08EeuWoeNDiXJbwg" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_bjcmsH08EeuWoeNDiXJbwg" elementId="project-q2-0304-chethan.partdescriptor.simpleviewq2chethan" label="Simple View Q2 Chethan" iconURI="platform:/plugin/project-q2-0304-Chethan/icons/sample.png" contributionURI="bundleclass://project-q2-0304-Chethan/view.SimpleViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_b-lIAH5DEeuEPddePzL4EA" elementId="project-q2-0304-chethan.popupmenu.mypopup" label="MyPopup">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_gTNl8H5DEeuEPddePzL4EA" elementId="project-q2-0304-chethan.handledmenuitem.defusepublic" label="DefUsePublic" command="_GuqloH07EeuWoeNDiXJbwg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_g8-7sH5DEeuEPddePzL4EA" elementId="project-q2-0304-chethan.handledmenuitem.defusenonparam" label="DefUseNonParam" command="_TddMcH07EeuWoeNDiXJbwg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_hfS-kH5DEeuEPddePzL4EA" elementId="project-q2-0304-chethan.handledmenuitem.defusevoid" label="DefUseVoid" command="_ZgRDcH07EeuWoeNDiXJbwg"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

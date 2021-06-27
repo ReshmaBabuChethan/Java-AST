@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vWID4LAUEeW3vtWFl0TcLg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_wI8n8LAUEeW3vtWFl0TcLg" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_D1ET4MMGEeWPlo5Odktwlg" elementId="simplebindingproject.command.simplesearchenginecaller" commandName="Simple Search Engine Caller"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_47Z8ELAUEeW3vtWFl0TcLg" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_GQ9ukMMGEeWPlo5Odktwlg" elementId="simplebindingproject.handler.4" contributionURI="bundleclass://simpleJDTCodeSearchExample/handler.HandlerSearchMethodCaller" command="_D1ET4MMGEeWPlo5Odktwlg"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EnVXsLAVEeW3vtWFl0TcLg" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_KBAyILAVEeW3vtWFl0TcLg" elementId="simplebindingproject.partdescriptor.simplecodesearchview" label="Simple View Midterm DefUse Chethan" iconURI="platform:/plugin/simpleJDTCodeSearchExample/icons/sample.png" contributionURI="bundleclass://simpleJDTCodeSearchExample/view.SimpleViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_cXqZULAVEeW3vtWFl0TcLg" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_fUAOoLAVEeW3vtWFl0TcLg" elementId="simplebindingproject.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_kfMhILAVEeW3vtWFl0TcLg" elementId="id.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QN88IMMGEeWPlo5Odktwlg" elementId="simplebindingproject.handledmenuitem.callersearchengine" label="Find Method Callers" command="_D1ET4MMGEeWPlo5Odktwlg"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

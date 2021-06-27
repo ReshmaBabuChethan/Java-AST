@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vfHrgIxREeuVuuRvHYDYqA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EWkbgIxSEeuVuuRvHYDYqA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_KwRIgIxSEeuVuuRvHYDYqA" elementId="project-midterm-0323-defuse-chethan.command.simpleanalyzercaller" commandName="Simple Analyzer Caller"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Phgp8IxSEeuVuuRvHYDYqA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_YK6IsIxSEeuVuuRvHYDYqA" elementId="project-midterm-0323-defuse-chethan.handler.0" contributionURI="bundleclass://project-midterm-0323-defuse-Chethan/handler.AnalyzeMethodCallerHandler" command="_KwRIgIxSEeuVuuRvHYDYqA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_h-b4QIxSEeuVuuRvHYDYqA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_qH1oUIxSEeuVuuRvHYDYqA" elementId="project-midterm-0323-defuse-chethan.partdescriptor.simpleviewmidtermdefusechethan" label="Simple View Midterm DefUse Chethan" iconURI="platform:/plugin/project-midterm-0323-defuse-Chethan/icons/sample.png" contributionURI="bundleclass://project-midterm-0323-defuse-Chethan/view.SimpleViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_505-IIxSEeuVuuRvHYDYqA" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_O6JSgIxTEeuVuuRvHYDYqA" elementId="project-midterm-0323-defuse-chethan.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_XXAxIIxTEeuVuuRvHYDYqA" elementId="project-midterm-0323-defuse-chethan.menu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_aBokUIxTEeuVuuRvHYDYqA" elementId="project-midterm-0323-defuse-chethan.handledmenuitem.analyzemethodcallers" label="Analyze Method Callers" command="_KwRIgIxSEeuVuuRvHYDYqA"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

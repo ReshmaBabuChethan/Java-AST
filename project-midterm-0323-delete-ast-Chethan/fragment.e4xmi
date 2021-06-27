@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_FsezcIwvEeuVuuRvHYDYqA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HHWO8IwvEeuVuuRvHYDYqA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_UQNioIwvEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.command.analyzeprogram" commandName="Analyze Program"/>
+    <elements xsi:type="commands:Command" xmi:id="_XmY0QIwvEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.command.deleteamethodwithoutamethodcaller" commandName="Delete a Method without a Method Caller"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_luKAMIwvEeuVuuRvHYDYqA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_qb3FcIwvEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.handler.0" contributionURI="bundleclass://project-midterm-0323-delete-ast-Chethan/handler.ProgramAnalysisHandler" command="_UQNioIwvEeuVuuRvHYDYqA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_yDtAkIwvEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.handler.1" contributionURI="bundleclass://project-midterm-0323-delete-ast-Chethan/handler.DelMethodNoCallerHandler" command="_XmY0QIwvEeuVuuRvHYDYqA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6W17cIwvEeuVuuRvHYDYqA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_AY3vUIwwEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.partdescriptor.simpletableviewdeleteastschethan" label="Simple Table View Delete ASTs Chethan" iconURI="platform:/plugin/project-midterm-0323-delete-ast-Chethan/icons/sample.png" contributionURI="bundleclass://project-midterm-0323-delete-ast-Chethan/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_eqAykIwwEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_k72kEIwwEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.handledmenuitem.analyzeprogram" label="Analyze Program" command="_UQNioIwvEeuVuuRvHYDYqA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_lou4MIwwEeuVuuRvHYDYqA" elementId="project-midterm-0323-delete-ast-chethan.handledmenuitem.deleteamethodwithoutamethodcaller" label="Delete a Method without a Method Caller" command="_XmY0QIwvEeuVuuRvHYDYqA"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

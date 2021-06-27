@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_fcKfsGd6EeuOkrQ_bxZMfw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6vjYYGd6EeuOkrQ_bxZMfw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_B9UmoGd7EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.command.analyzeprogram" commandName="Analyze Program"/>
+    <elements xsi:type="commands:Command" xmi:id="_LVsrQGd7EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.command.deleteprivatemethod" commandName="Delete Private Method"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_TrwXQGd7EeuOkrQ_bxZMfw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_W0JEgGd7EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.handler.0" contributionURI="bundleclass://project-ex-0204-type-delete-ast-Chethan/handler.ProgramAnalysisHandler" command="_B9UmoGd7EeuOkrQ_bxZMfw"/>
+    <elements xsi:type="commands:Handler" xmi:id="__rbnEGd7EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.handler.1" contributionURI="bundleclass://project-ex-0204-type-delete-ast-Chethan/handler.DeletePrivateMethodHandler" command="_LVsrQGd7EeuOkrQ_bxZMfw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_N6ZAIGd8EeuOkrQ_bxZMfw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_S_G3MGd8EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.partdescriptor.simpletableview-deletemethodast-0204chethan" label="Simple Table View - Delete Method AST - 0204 Chethan" iconURI="platform:/plugin/project-ex-0204-type-delete-ast-Chethan/icons/sample.png" contributionURI="bundleclass://project-ex-0204-type-delete-ast-Chethan/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_CKem8Gd9EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_GB1TAGd9EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.handledmenuitem.analyzeprogram" label="Analyze Program" command="_B9UmoGd7EeuOkrQ_bxZMfw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_RjeKMGd9EeuOkrQ_bxZMfw" elementId="project-ex-0204-type-delete-ast-chethan.handledmenuitem.deleteprivatemethod" label="Delete Private Method" command="_LVsrQGd7EeuOkrQ_bxZMfw"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

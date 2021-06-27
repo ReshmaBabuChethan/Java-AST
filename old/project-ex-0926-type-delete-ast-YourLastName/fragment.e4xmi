@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Td9zkL76Eea8c6k31W1j8w">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_f3-gYL7-Eea8c6k31W1j8w" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_jzPcEL7-Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.command.refresh" commandName="Analyze Program"/>
+    <elements xsi:type="commands:Command" xmi:id="_-d4SsL7-Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.command.addprogramelement" commandName="Add Program Element"/>
+    <elements xsi:type="commands:Command" xmi:id="__f8zsL7-Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.command.deleteprivatemethod" commandName="Delete Private Method"/>
+    <elements xsi:type="commands:Command" xmi:id="__9nnIL7-Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.command.deleteclass" commandName="Delete Class"/>
+    <elements xsi:type="commands:Command" xmi:id="_BA9TcL7_Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.command.deletepackage" commandName="Delete Package"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_mldFAL7-Eea8c6k31W1j8w" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_t2Oj8L7-Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.handler.0" contributionURI="bundleclass://project-ex-0926-type-delete-ast-Redwine/handler.ProgramAnalysisHandler" command="_jzPcEL7-Eea8c6k31W1j8w"/>
+    <elements xsi:type="commands:Handler" xmi:id="_HY-lcL7_Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.handler.1" contributionURI="bundleclass://project-ex-0926-type-delete-ast-Redwine/handler.AddProgElemHandler" command="_-d4SsL7-Eea8c6k31W1j8w"/>
+    <elements xsi:type="commands:Handler" xmi:id="_HydccL7_Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.handler.2" contributionURI="bundleclass://project-ex-0926-type-delete-ast-Redwine/handler.DelMethodHandler" command="__f8zsL7-Eea8c6k31W1j8w"/>
+    <elements xsi:type="commands:Handler" xmi:id="_IGNe4L7_Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.handler.3" contributionURI="bundleclass://project-ex-0926-type-delete-ast-Redwine/handler.DelClassHandler" command="__9nnIL7-Eea8c6k31W1j8w"/>
+    <elements xsi:type="commands:Handler" xmi:id="_IX32oL7_Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.handler.4" contributionURI="bundleclass://project-ex-0926-type-delete-ast-Redwine/handler.DelPackageHandler" command="_BA9TcL7_Eea8c6k31W1j8w"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KB1wAL79Eea8c6k31W1j8w" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_Mt3RYL79Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.partdescriptor.simpletableview" label="Simple Table View - Delete Method AST - 0926 Redwine" iconURI="platform:/plugin/project-ex-0926-type-delete-ast-Redwine/icons/sample.png" contributionURI="bundleclass://project-ex-0926-type-delete-ast-Redwine/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_hxgqUL79Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_jtDxAL79Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.handledmenuitem.refresh" label="Analyze Program" command="_jzPcEL7-Eea8c6k31W1j8w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_p3FqUL79Eea8c6k31W1j8w" elementId="projectex0926typedeleteastredwine.handledmenuitem.deleteprivatemethod" label="Delete Private Method" command="__f8zsL7-Eea8c6k31W1j8w"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

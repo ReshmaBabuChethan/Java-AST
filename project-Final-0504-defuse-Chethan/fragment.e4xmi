@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_qQonMK08Eeu33d-3Ni4noQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OX3UEK09Eeu33d-3Ni4noQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_EpMZ4K0-Eeu33d-3Ni4noQ" elementId="project-final-0504-defuse-chethan.command.simpleanalyzercaller" commandName="Simple Analyzer Caller"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HJX3oK0-Eeu33d-3Ni4noQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_JxcGEK0-Eeu33d-3Ni4noQ" elementId="project-final-0504-defuse-chethan.handler.0" contributionURI="bundleclass://project-Final-0504-defuse-Chethan/handler.AnalyzeMethodCallerHandler" command="_EpMZ4K0-Eeu33d-3Ni4noQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dliisK0-Eeu33d-3Ni4noQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_oJZjAK0-Eeu33d-3Ni4noQ" elementId="project-final-0504-defuse-chethan.partdescriptor.simpleviewfinaldefusechethan" label="Simple View Final DefUse Chethan" iconURI="platform:/plugin/project-Final-0504-defuse-Chethan/icons/sample.png" contributionURI="bundleclass://project-Final-0504-defuse-Chethan/view.SimpleViewer"/>
+  </fragments>
+</fragment:ModelFragments>

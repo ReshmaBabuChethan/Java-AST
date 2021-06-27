@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_-GUcYK01Eeu33d-3Ni4noQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lffbIK02Eeu33d-3Ni4noQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_2sAxgK02Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.command.analyzeprogram" commandName="Analyze Program"/>
+    <elements xsi:type="commands:Command" xmi:id="_A8rJAK03Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.command.deleteamethodwithoutamethodcaller" commandName="Delete a Method without a Method Caller"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EFHgoK03Eeu33d-3Ni4noQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_L-_m8K03Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.handler.0" contributionURI="bundleclass://project-Final-0504-delete-ast-Chethan/handler.ProgramAnalysisHandler" command="_2sAxgK02Eeu33d-3Ni4noQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_WtQgcK03Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.handler.1" contributionURI="bundleclass://project-Final-0504-delete-ast-Chethan/handler.DelMethodNoCallerHandler" command="_A8rJAK03Eeu33d-3Ni4noQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_e-0uAK03Eeu33d-3Ni4noQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_vxcWoK03Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.partdescriptor.simpletableviewdeleteastschethan" label="Simple Table View Delete ASTs Chethan" iconURI="platform:/plugin/project-Final-0504-delete-ast-Chethan/icons/sample.png" contributionURI="bundleclass://project-Final-0504-delete-ast-Chethan/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_BObx8K04Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.popupmenu.popupmenu" label="Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_MDR0kK04Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.handledmenuitem.analyzeprogram" label="Analyze Program" command="_2sAxgK02Eeu33d-3Ni4noQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_TWSvMK04Eeu33d-3Ni4noQ" elementId="project-final-0504-delete-ast-chethan.handledmenuitem.deleteamethodwithoutamethodcaller" label="Delete a Method without a Method Caller" command="_A8rJAK03Eeu33d-3Ni4noQ"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

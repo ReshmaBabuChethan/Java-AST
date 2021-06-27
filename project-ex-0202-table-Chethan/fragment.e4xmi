@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_9lPyEGXYEeuGk74c-rzOeA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_BXq60GXZEeuGk74c-rzOeA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_P_m0kGXZEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.command.addpersoncommand" commandName="Add Person Command"/>
+    <elements xsi:type="commands:Command" xmi:id="_eu0bAGXZEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.command.deletepersoncommand" commandName="Delete Person Command"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_kXnPgGXZEeuGk74c-rzOeA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_rB5WMGXZEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.handler.0" contributionURI="bundleclass://project-ex-0202-table-Chethan/handler.AddPersonHandler" command="_P_m0kGXZEeuGk74c-rzOeA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_r3Q38GXZEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.handler.1" contributionURI="bundleclass://project-ex-0202-table-Chethan/handler.DeletePersonHandler" command="_eu0bAGXZEeuGk74c-rzOeA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_j05ukGXaEeuGk74c-rzOeA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_rLZbAGXaEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.partdescriptor.simpletableaddingdeletingchethan" label="Simple Table Adding Deleting Chethan" iconURI="platform:/plugin/project-ex-0202-table-Chethan/icons/sample.png" closeable="true" contributionURI="bundleclass://project-ex-0202-table-Chethan/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_rsrNAGXjEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_202bUGXjEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.handledmenuitem.add" label="Add" command="_P_m0kGXZEeuGk74c-rzOeA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_DJCJwGXkEeuGk74c-rzOeA" elementId="project-ex-0202-table-chethan.handledmenuitem.delete" label="Delete" command="_eu0bAGXZEeuGk74c-rzOeA"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

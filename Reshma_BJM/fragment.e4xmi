@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_iG7usKyYEeuHWuSsn8IdIw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lzvXoKyYEeuHWuSsn8IdIw" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_rvbS8KyYEeuHWuSsn8IdIw" elementId="reshma_bjm.menucontribution.0">
+      <children xsi:type="menu:Menu" xmi:id="_usNNIKyYEeuHWuSsn8IdIw" elementId="reshma_bjm.menu.0">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_wuzXAKyYEeuHWuSsn8IdIw" elementId="reshma_bjm.handledmenuitem.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_yG5LUKyYEeuHWuSsn8IdIw" elementId="reshma_bjm.handledmenuitem.1"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
